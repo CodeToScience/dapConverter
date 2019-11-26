@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+h2 {
+  color: blanchedalmond;
+  text-align: center;
+}
+
+div {
+  height: 6em;
+}
+
+input[type="number"] {
+  width: 80%;
+  height: 80%;
+  outline: none;
+  font-family: Asap, sans-serif;
+  background: black;
+  color: blanchedalmond;
+  font-size: 4em;
+  text-align: center;
+  border: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #222222;
+}
+
+::-moz-placeholder {
+  color: #222222;
+}
+
+::-ms-input-placeholder {
+  color: #222222;
+}
